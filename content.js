@@ -1,4 +1,2 @@
-const divToHide = document.querySelector(
-  ".style-scope ytd-player-legacy-desktop-watch-ads-renderer"
-);
+const divToHide = document.querySelector("#companion");
 divToHide.style.display = "none";
