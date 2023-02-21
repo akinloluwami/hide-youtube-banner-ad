@@ -2,7 +2,7 @@
   "name": "Hide Youtube banner ad",
   "version": "1.0",
   "description": "Hides Youtube banner ads on video",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "permissions": ["activeTab"],
   "content_scripts": [
     {
