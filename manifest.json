@@ -1,0 +1,13 @@
+{
+  "name": "Hide Youtube banner ad",
+  "version": "1.0",
+  "description": "Hides Youtube banner ads on video",
+  "manifest_version": 2,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
